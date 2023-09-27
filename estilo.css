@@ -1,0 +1,291 @@
+.logo img{
+    width: 10%;
+    border: solid;
+    border-width: 0.5px;
+    margin-top: 15px;
+    margin-left: 10px;
+    border-color: #7F6D6A;
+}
+.navegacao{
+    background-color: #fad9d1;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    
+}
+header{
+    background-color: #fad9d1;
+}
+.navegacao a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #000000;
+    padding: 10px;
+    text-decoration: none;
+    text-align: right;
+    font-size: 17px;
+}
+
+.slider {
+    display: block;
+    height: 500px;
+    width: 1500px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 500px;
+    width: 1800px;
+    opacity: 0;
+    visibility: hidden;
+}
+.slider input{
+    display: none;
+}
+
+.slider label {
+    background-color:#7F6D6A;
+    bottom: 10px;
+    cursor:default;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+
+  .promos {
+    margin-top: 29px;
+    display: flex; 
+  }
+
+  .promo 
+  {
+    text-align: center;
+    width: 33.33%;
+    padding: 10px; 
+  }
+
+  .promo img {
+   width: 250px;
+  }
+
+  .titulo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    margin: 10px 0 35px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .visto {
+    display:flex;
+    width: 100%; 
+    padding: 30px;
+  }
+  .imgvisto {
+	display: inline-block;
+}
+
+  .imgvisto img {
+   width: 250px;
+   height: 300px;
+  }
+  h2{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #83736c;
+  }
+  .pp{
+    text-align: center;
+  }
+.aa1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.roupa1 {
+    display:flex;
+    width: 100%; 
+    padding: 30px;
+    justify-content: center;
+    
+  }
+  .roupa2 {
+    display:flex;
+    width: 100%; 
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .imgrp {
+	display: inline-block;
+}
+
+.imgrp img {
+    width: 500px;
+    height: 300px;
+}
+.imgrp1 img {
+    width: 300px;
+    height: 400px;
+}
+
+.contato {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .loja {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+
+  footer{
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+/*parte feminina*/
+
+.roupass {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.produto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.produto h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.produto .preco {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4081;
+}
+section {
+  margin-bottom: 20px;
+}
+.sobre1 {
+  background-color: #F08080;
+  padding: 20px;
+  text-align: center;
+}
+
+.sobre1 h2 {
+  color: #333;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.sobre1 p {
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+ 
+}
